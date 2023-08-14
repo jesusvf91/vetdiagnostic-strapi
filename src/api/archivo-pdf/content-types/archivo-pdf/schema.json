@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "archivo_pdfs",
+  "info": {
+    "singularName": "archivo-pdf",
+    "pluralName": "archivo-pdfs",
+    "displayName": "Archivo PDF"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Archivo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
